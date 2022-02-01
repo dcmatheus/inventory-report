@@ -8,5 +8,18 @@
     "python.formatting.blackArgs": [
         "-l 79"
     ],
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "black",
+    "workbench.colorCustomizations": {
+      "sash.hoverBorder": "#4a5468",
+      "statusBar.background": "#353c4a",
+      "statusBar.foreground": "#e7e7e7",
+      "statusBarItem.hoverBackground": "#4a5468",
+      "statusBarItem.remoteBackground": "#353c4a",
+      "statusBarItem.remoteForeground": "#e7e7e7",
+      "titleBar.activeBackground": "#353c4a",
+      "titleBar.activeForeground": "#e7e7e7",
+      "titleBar.inactiveBackground": "#353c4a99",
+      "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#353c4a"
 }
