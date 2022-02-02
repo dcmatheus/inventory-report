@@ -20,6 +20,3 @@ class Inventory:
         elif report_type == "completo":
             return CompleteReport.generate(product_list)
         raise ValueError("Tipo de relatório inválido")
-
-
-print(Inventory.import_data("inventory_report/data/inventory.json", "completo"))
