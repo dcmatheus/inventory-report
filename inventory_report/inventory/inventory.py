@@ -2,7 +2,7 @@ from inventory_report.importer.json_importer import JsonImporter
 from inventory_report.importer.csv_importer import CsvImporter
 from inventory_report.importer.xml_importer import XmlImporter
 from inventory_report.reports.simple_report import SimpleReport
-# from inventory_report.reports.complete_report import CompleteReport
+from inventory_report.reports.complete_report import CompleteReport
 
 
 class Inventory:
@@ -18,6 +18,5 @@ class Inventory:
         if report_type == "simples":
             return SimpleReport.generate(product_list)
         elif report_type == "completo":
-            # return CompleteReport.generate(product_list)
-            return "teste"
+            return CompleteReport.generate(product_list)
         raise ValueError("Tipo de relatório inválido")
