@@ -11,7 +11,7 @@ def generate_fabrication_date(stock):
 def generate_validate(stock):
     validate = set()
     atual_date = datetime.today()
-    date_text = atual_date.strftime('%Y/%m/%d')
+    date_text = atual_date.strftime('%Y-%m-%d')
 
     for validate_date in stock:
         if validate_date["data_de_validade"] > date_text:
